@@ -1,0 +1,124 @@
+/* common */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+img {
+  vertical-align: bottom;  
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.container {
+  width:400px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  background: #efefef;
+}
+
+header .container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+}
+
+header .container div + div {
+  margin-left: 32px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+header p {
+  font-weight: normal;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li + li {
+  margin-left: 8px;
+}
+
+header .icon {
+  border-radius: 50%;
+}
+
+header ul li img:hover {
+  opacity: 50%;
+}
+
+/* main */
+
+img {
+  border-radius: 10%;
+}
+
+.bg_1 {
+  background-image: url(../img/IMG_5553.JPG);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.bg_rgba {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px 0;
+}
+
+main h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+main p {
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+main section + section {
+  margin-top: 60px;
+}
+
+/* footer */
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  color: #aaa;
+}
